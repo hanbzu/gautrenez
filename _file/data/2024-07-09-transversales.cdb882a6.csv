@@ -1,0 +1,55 @@
+service,from,fromArea,to,toArea,tmin,servperday,name,madrid,notes
+TA1,Barcelona,B,A Coruña,CÑ,829,,Alvia,,Días alternos. Acoplado a TA3 hasta Miranda
+TA2,Barcelona,B,Vigo,VG,870,,Alvia,,Días alternos. Acoplado a TA3 hasta Miranda
+TA3,Barcelona,B,Salamanca,SA,541,,Alvia,,Acoplado a TA1/2 hasta Miranda
+TA4,Barcelona,B,Bilbo,BI,411,1,Alvia,,
+TA5,Barcelona,B,Málaga,MA,381,2,AVE,,Acoplados a TA6 hasta Córdoba
+TA6,Barcelona,B,Sevilla,SE,358,3,AVE/Alvia,,Acoplados a TA5 hasta Córdoba
+TA7,Barcelona,B,Cádiz,CA,815,1,Intercity,,
+TA8,Barcelona,B,Granada,GR,386,1,AVE,,
+TA9,Barcelona,B,Murcia,MU,460,2,Intercity,,Continúa a Cartagena. Operado por Mediterráneo
+TB1,València,VA,Barcelona,B,188,9,Euromed/Intercity/Alvia,,Operado por Mediterráneo salvo Alvia
+TB2,València,VA,Murcia,MU,229,2,Intercity,,Operado por Mediterráneo
+TC1,Alacant,AC,Xixon,AS,417,1,Alvia,,
+TC2,Alacant,AC,Santander,SA,441,1,Alvia,,
+TC3,Alacant,AC,Barcelona,B,314,6,Euromed/Intercity,,Operado por Mediterráneo
+TD1,Murcia,MU,Barcelona,B,480,2,Intercity,,Procede de Cartagena. Operado por Mediterráneo
+TE1,Granada,GR,Barcelona,B,379,1,AVE
+TF1,Málaga,ML,Barcelona,B,356,2,AVE,,Acoplados a TG1 desde Córdoba
+TG1,Sevilla,SE,Barcelona,B,341,3,AVE/Alvia,,Acoplados a TF1 desde Córdoba
+TH1,Cádiz,CA,Barcelona,B,762,1,Intercity,,
+TI1,Salamanca,SL,Barcelona,B,547,1,Alvia,,Acoplado a TJ1/TK1 desde Miranda
+TJ1,A Coruña,CÑ,Barcelona,B,830,1,Alvia,,Días alternos. Acoplado a TI1 desde Miranda
+TK1,Vigo,VG,Barcelona,B,855,1,Alvia,,Días alternos. Acoplado a TI1 desde Miranda
+TL1,Xixon,AS,Alacant,AC,423,1,Alvia,,
+TM1,Santander,SA,Alacant,AC,458,1,Alvia,,
+TN1,Bilbo,BI,Barcelona,B,420,1,Alvia,,
+TA10,Barcelona,B,Donostia,DO,381,1,Alvia,,
+TO1,Donostia,DO,Barcelona,B,367,1,Alvia,,
+,Alacant,AC,Xixon,AS,421,1,Alvia,Chamartín
+,Alacant,AC,Santander,SA,441,1,Alvia,Chamartín
+,Xixon,AS,Alacant,AC,435,1,Alvia,Chamartín
+,Santander,SA,Alacant,AC,458,1,Alvia,Chamartín
+,Xixon,AS,Vinaròs,,489,1,AVE,Chamartín,Prolongación del Castellón. Diario (Bloqueado sábados por el momento)
+,Vinaròs,,Xixon,AS,493,1,AVE,Chamartín,Prolongación del Castellón. Diario
+,Sevilla,SE,Huesca,,319,1,AVE,Atocha
+,Huesca,,Sevilla,SE,338,1,AVE,Atocha
+,Málaga,ML,Murcia,MU,392,1,AVE,Atocha
+,Murcia,MU,Málaga,MA,424,1,AVE,Atocha
+,Burgos,BU,València,VA,224,1,AVE,Chamartín
+,València,VA,Burgos,BU,227,1,AVE,Chamartín
+,Burgos,BU,Murcia,MU,291,1,AVE,Chamartín
+,Murcia,MU,Burgos,BU,273,1,AVE,Chamartín
+,Valladolid,VL,Alacant,AC,224,1,AVLO,Chamartín
+,Alacant,AC,Valladolid,VL,222,1,AVLO,Chamartín
+,Murcia,MU,Valladolid,VL,286,1,AVLO,Chamartín
+,León,LE,València,VA,249,2,AVE,Chamartín
+,València,VA,León,LE,277,2,AVE,Chamartín
+,León,LE,Alacant,AC,274,1,AVE,Chamartín
+,Alacant,AC,León,LE,279,1,AVE,Chamartín
+,Ourense,OU,Alacant,AC,303,1,AVE,Chamartín
+,Alacant,AC,Ourense,OU,293,1,AVE,Chamartín
+,Valladolid,VL,Alacant,AC,224,1,Ouigo,Chamartín
+,Alacant,AC,Valladolid,VL,228,1,Ouigo,Chamartín
+,Sevilla,SE,Barcelona,B,351,2,Iryo,Atocha
+,Barcelona,B,Sevilla,SE,354,2,Iryo,Atocha,

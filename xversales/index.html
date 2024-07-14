@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Gautrenez Analisia</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="../_observablehq/theme-air,near-midnight.css">
+<link rel="preload" as="style" href="../_observablehq/stdlib/inputs.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="../_observablehq/theme-air,near-midnight.css">
+<link rel="stylesheet" type="text/css" href="../_observablehq/stdlib/inputs.css">
+<link rel="modulepreload" href="../_observablehq/client.js">
+<link rel="modulepreload" href="../_observablehq/runtime.js">
+<link rel="modulepreload" href="../_observablehq/stdlib.js">
+<link rel="modulepreload" href="../_npm/d3-dsv@3.0.1/_esm.js">
+<link rel="modulepreload" href="../_observablehq/stdlib/inputs.js">
+<link rel="modulepreload" href="../_npm/htl@0.3.1/_esm.js">
+<link rel="modulepreload" href="../_npm/isoformat@0.2.1/_esm.js">
+<link rel="icon" href="../_file/observable.1af93621.png" type="image/png" sizes="32x32">
+<script type="module">
+
+import {define} from "../_observablehq/client.js";
+import {registerFile} from "../_observablehq/stdlib.js";
+
+registerFile("../data/2024-07-09-transversales.csv", {"name":"../data/2024-07-09-transversales.csv","mimeType":"text/csv","path":"../_file/data/2024-07-09-transversales.cdb882a6.csv","lastModified":1720561953282});
+
+define({id: "64602d97", inputs: ["FileAttachment","display","Inputs"], outputs: ["xversales"], body: async (FileAttachment,display,Inputs) => {
+const xversales = await FileAttachment(
+  "../data/2024-07-09-transversales.csv"
+).csv({ typed: true });
+display(Inputs.table(xversales));
+return {xversales};
+}});
+
+</script>
+<input id="observablehq-sidebar-toggle" type="checkbox" title="Toggle sidebar">
+<label id="observablehq-sidebar-backdrop" for="observablehq-sidebar-toggle"></label>
+<nav id="observablehq-sidebar">
+  <ol>
+    <label id="observablehq-sidebar-close" for="observablehq-sidebar-toggle"></label>
+    <li class="observablehq-link"><a href="../">Gautrenez Analisia</a></li>
+  </ol>
+  <ol>
+    <li class="observablehq-link observablehq-link-active"><a href="./">Untitled</a></li>
+  </ol>
+</nav>
+<script>{Object.assign(document.createElement("a"),{href:""}).password&&location.replace(location.href);const e=document.querySelector("#observablehq-sidebar"),t=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?t.checked=r==="true":t.indeterminate=!0;for(const o of document.querySelectorAll("#observablehq-sidebar summary")){const s=o.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${o.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
+<aside id="observablehq-toc" data-selector="h1:not(:first-of-type)[id], h2:first-child[id], :not(h1) + h2[id]">
+<nav>
+</nav>
+</aside>
+<div id="observablehq-center">
+<main id="observablehq-main" class="observablehq">
+<p>Transversales, según <a href="https://x.com/MatuteDuarte/status/1810345094278521250" target="_blank" rel="noopener noreferrer">análisis</a> de Miguel Ángel Matute:</p>
+<div class="observablehq observablehq--block"><!--:64602d97:--></div>
+</main>
+<footer id="observablehq-footer">
+<nav><a rel="prev" href="../"><span>Gautrenez Analisia</span></a></nav>
+<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2024-07-14T21:25:20">Jul 14, 2024</a>.</div>
+</footer>
+</div>

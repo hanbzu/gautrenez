@@ -1,0 +1,70 @@
+id,name,area
+7100017,Madrid-Chamartin,M
+7100049,Madrid-Puerta de Atocha,M
+7100064,Barcelona Sants,B
+7103216,Valencia Joaquin Sorolla,VA
+7100054,Valencia Estacio del Nord,VA
+7100180,Sevilla Santa Justa,SE
+7151100,Sevilla-San Bernardo,SE
+7100045,Malaga,ML
+7100011,Bilbao-Abando,BI
+7100152,Oviedo,AS
+7100016,Gijón,AS
+7175506,Zaragoza Delicias,ZA
+7100051,Alicante-Terminal,AC
+7103410,Elche AV/Elx AV,AC
+7162102,Elche-Carrus (APD.),AC
+7100052,Murcia del Carmen,MU
+7100043,Cadiz,CA
+7100042,Jerez de la Frontera,CA
+7151205,Jerez Aeropuerto,CA
+7108223,Vigo Urzaiz,VG
+7122308,Vigo Guixar,VG
+7100026,Pontevedra,VG
+7123018,Pontevedra-Universidad,VG
+7100182,Granada,GR
+7100029,La Coruna-San Cristobal,CÑ
+7100008,San Sebastian,DO
+7100003,Valladolid Campo Grande,VL
+7100062,Tarragona,TA
+7104104,Camp de Tarragona,TA
+7100061,Reus,TA
+7100080,Pamplona,IÑ
+7100014,Santander,SA
+7100013,Torrelavega,SA
+7100038,Córdoba Central,CO
+7100098,Castello de la Plana,CL
+7100127,Vitoria/Gasteiz,GZ
+7100136,Algeciras,AG
+7100053,Cartagena,CR
+7100048,Almeria,AL
+7100015,Leon,LE
+7100028,Santiago de Compostela,ST
+7100027,Salamanca,SL
+7100081,Logrono,LO
+7100005,Burgos Rosa de Lima,BU
+7100036,Huelva-Termino,HU
+7100135,Albacete,AB
+7100073,Lerida/Lleida,LL
+7100060,Guadalajara,GU
+7125593,Guadalajara-Yebes,GU
+7100077,Girona,GI
+7100035,Badajoz,BD
+7100204,Jaen,JN
+7100022,Ourense,OU
+7100162,Ferrol,FE
+7100107,Gandia,GD
+7100082,Toledo,TO
+7100032,Caceres,CS
+7100209,Manresa,MR
+7100213,Orihuela,OR
+8700073,Narbonne,@N
+8700074,Marseille-St-Charles,@M
+8700097,Montpellier Saint-Roch,@T
+8700151,Nîmes,@S
+8700164,Perpignan,@C
+8704918,Avignon TGV,@A
+8704980,Aix-en-Provence TGV,@R
+8700010,Paris Austerlitz,@@
+8700013,Paris Montparnasse,@@
+8700012,Paris Gare de Lyon,@@
