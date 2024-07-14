@@ -5,7 +5,7 @@
     "clean": "rimraf src/.observablehq/cache",
     "build": "rimraf dist && observable build",
     "predeploy": "rimraf dist && observable build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "observable preview",
     "observable": "observable"
   },
